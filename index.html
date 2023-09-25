@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="icon" href="acc.png" type="image/x-icon">
+    <link rel="stylesheet" href="reg form.css">
+
+
+</head>
+<script lang="javascript">
+    function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+  }
+}
+
+</script>
+<body>
+    <div class="outer">
+        <h1>Registration Form</h1>
+        <div class="f-name">
+            <label style="font-size: 25px; margin-left:15px;">First Name</label>
+            <br>
+            <input class="search" type="text" placeholder="max 20 characters" maxlength="20" style="z-index: 0;">
+        </div>
+        <div class="l-name">
+            <label style="font-size: 25px; margin-left:15px;">Last name</label>
+            <br>
+            <input class="search" type="text" placeholder="max 20 characters" maxlength="20">
+ 
+        </div>
+        <div class="email">
+            <label style="font-size: 25px;">Enter Your Mail Id</label>
+            <br>
+            <input class="mail-search" type="text" placeholder="Gmail/Apple/Outlook">
+        </div>
+        <div class="date">
+            <label style="font-size: 25px;">Date Of Birth</label>
+            <br>
+            <input class="search" type="date" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="type">
+            
+            <br> 
+            <select name="sel" class="drop" title="Category">
+                <option>Student</option>
+                <option>Graduate</option>
+                <option>Working Professional</option>
+                <option>Business</option>
+                <option>Others</option>
+            </select>
+        </div>
+        <div class="password">
+            <input class="search" id="myInput" type="password" placeholder="Create New Password" maxlength="8" style="width: 200px; margin-left: 20px;">
+            <input type="checkbox" onclick="myFunction()">show
+        </div>
+        <div class="new-pwd">
+            <input class="search" type="password" placeholder="Confirm Password" maxlength="8" style="width: 200px; margin-left: 20px;">
+            <input type="checkbox" onclick="myFunction()">show
+        </div>
+        <div class="username">
+            <label style="font-size: 25px;">Create your username</label>
+            <br>
+            <input class="search" type="text" placeholder="Enter here" style="width:200px">
+        </div>
+        <button>Register User</button>
+        <img src="logins.png" alt="register">
+        <h3>Or Register Using</h3>
+        <div class="dir">
+            <div class="gmail">
+                <a href="https://www.google.com/account/about/"><img src="google1.png" style="width: 60px; height: 60px;"></a>
+            </div>
+            <div class="apple">
+                <a href="https://www.apple.com/in/shop/help/your_account"><img src="apple.png" style="width: 60px; height: 60px;"></a>
+            </div>
+            <div class="fb">
+                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi1tdWw5sKBAxV0FoMDHf2-CfwYABAAGgJzZg&gclid=Cj0KCQjwvL-oBhCxARIsAHkOiu1eTHetBtDnAKTcA0Mch9doF8f4JBlTSaJmEyQV2Kx95nphzki9LpoaAoOMEALw_wcB&ohost=www.google.com&cid=CAESa-D22BWa0caVMDBTWxH1HH63bLky46xn1w0dau3XkL5RcVRSvYrMCoRk0tLzRaC8GgyLNqvZWJb5UxAlGssRq6k8IzpcJfidDzh_W9w18xtEtWFtn7Dp392XHa_-9zpYXoohScZ-hStOlpor&sig=AOD64_10p5VUdj0NhAphPsy-zx5KIzWR2w&q&adurl&ved=2ahUKEwiv5s6w5sKBAxUUxzgGHfALOwcQ0Qx6BAgNEAE"><img src="fbbb.png" style="width:60px; height: 60px;"></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Kenia&family=Outfit:wght@900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+</html>
+
+
