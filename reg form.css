@@ -1,0 +1,149 @@
+body {
+    background-image: linear-gradient(to right, #c9c9c9, #ee92ee);
+}
+
+h1 {
+    color:rgb(255, 255, 170);
+}
+.outer {
+    height: 600px;
+    width:700px;
+    border:5px solid black;
+    position: relative;
+    left:29%;
+    margin-top: 60px;
+    padding:4px;
+    text-align: center;
+    background-image: linear-gradient(to right, #000000, #000000);
+    border-radius: 40px;
+    color:whitesmoke;
+    font-family: 'Prompt', sans-serif;
+    top:40px;
+    box-shadow: 1px 1px 5px 5px #4a23d5;
+
+   
+} 
+label {
+    font-size: 40px;
+}
+
+.f-name {
+    text-align: left;
+    margin-left: 15px;
+    position: absolute;
+    
+}
+
+.search {
+    width:150px;
+    height: 25px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #4a23d5;
+}
+.l-name {
+    position: absolute;
+    right:350px;
+}
+.email {
+    position:absolute;
+    top:170px;
+    margin-left: 20px;
+}
+
+.email > .mail-search {
+    width:250px;
+    height:25px;
+    border-radius: 20px;
+    border-width: 4px;
+    border-style:solid;
+    border-color: #4a23d5;
+}
+.date {
+    position:absolute;
+    top:242px;
+    margin-left:20px;
+}
+.type {
+    position:absolute;
+    top:245px;
+    left:410px;
+    
+
+}
+.type > .drop {
+    width:180px;
+    height:30px;
+    border-radius: 10px;
+    position: absolute;
+    right:30px;
+    top:35px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #4a23d5;
+}
+
+.password {
+    position:absolute;
+    top:320px;
+    
+    
+}
+.new-pwd {
+    position: absolute;
+    top:360px;
+
+}
+.username {
+    position: absolute;
+    top:410px;
+    margin-left: 20px;
+}
+
+button {
+    width:100px;
+    height:30px;
+    border-radius:10px;
+    position: absolute;
+    top:490px;
+    left:70px;
+    border:2px black solid;
+    background-color: #e5e79e;
+
+}
+img {
+    width:270px;
+    height: 270px;
+    position: absolute;
+    top:80px;
+    right:40px;
+}
+
+h3 {
+    position: relative;
+    top:300px;
+    left:180px;
+}
+.gmail {
+    width:40px;
+    height: 40px;
+    position: relative;
+    top:250px;
+    left:410px;
+}
+.apple {
+    position: relative;
+    top:205px;
+    right:150px;
+}
+
+.fb {
+    position: relative;
+    top: 205px;
+    right:60px;
+}
+
+h3 {
+    margin-right: 130px;
+}
